@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --color-green: #92e3a9;
+}
+
+body{
+    font-size:62.5%;
+}
+header{
+    background-color: #1a5b7f;
+    color:#fff;
+    padding:1em;
+    font-size: 1em 5em;
+}
+#logo:hover{
+    background-color: rgba(97, 180, 104, 0.883);
+
+}
+#logo{
+    display:inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+#logo-img{
+    width: 2em;
+}
+#logo-txt{
+    width: 2em;
+    color: #fff;
+    font-size: 3em;
+    letter-spacing:2px;
+    font-family: 'IM Fell English SC', serif;
+}
+
+/* Section Intro */
+#sec-intro{
+    /*  */
+    display: flex;
+    align-items: center;
+}
+.sec-img {
+    width: 50%;
+}
+.sec-img img{
+    width:80%;
+}
+/* Section Feaure */
+#sec-feature{
+    /*  */
+}
+
+
+
+
+
+
+section{
+    padding:3rem;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.sec-info{
+    width: 50%;
+}
+.sec-heading{
+    font-size:3rem;
+    color: #1a5b7f;
+    letter-spacing: 5px;
+    font-family: 'Acme', sans-serif;
+    
+}
+.sec-text{
+    margin-top:2em;
+    font-family: 'Spartan', sans-serif;
+    font-size:1.5rem;
+    color: #7992a0;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding:1rem;
+}
+footer a{
+    font-size:1.2rem;
+    color: rgb(92, 88, 88);
+    text-decoration: none;
+}
+#join-btn{
+
+    margin-top: 2rem;
+    /* text-align: center; */
+}
+#join-btn a{
+    text-decoration: none;
+    color:#fff;
+    font-size:1.3rem;
+    background-color:#1a5b7f;
+    padding:15px 30px ;
+    display: inline-block;
+    border-radius: 10px;
+
+}
