@@ -106,3 +106,21 @@ footer a{
     border-radius: 10px;
 
 }
+
+
+@media screen and (max-width:600px){
+    body {
+        font-size:50%;
+    }
+    section{
+        flex-direction: column;
+    }
+    .sec-info{
+        width: 100%;
+    }
+    .sec-img{
+        width: 100%;
+        order: -1;
+    }
+    
+}
